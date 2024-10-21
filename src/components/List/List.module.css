@@ -1,0 +1,31 @@
+.container{
+    width: 100%;
+}
+.showBlock{
+    display: flex;
+    justify-content: center;
+}
+.listWrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+    width: 70%;
+}
+.searchWrapper{
+    display: flex;
+}
+.paginationBlock{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.message{
+    margin: 50px 0;
+}
+
+.backBtn{
+    margin-right: 5px;
+}

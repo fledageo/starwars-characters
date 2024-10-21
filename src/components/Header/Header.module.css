@@ -1,0 +1,13 @@
+.container{
+    background-color: #433D8B;
+    height: 20%;
+}
+.wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 90%;
+}

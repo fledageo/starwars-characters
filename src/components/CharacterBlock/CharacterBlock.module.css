@@ -1,0 +1,48 @@
+.block{
+    background-color: #433D8B;
+    width: 40%;
+    height: 100px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.block:hover{
+    transform: scale(1.05);
+    background-color: #524aaa;
+}
+.wrapper{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.charName{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.cardHeader {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+}
+
+.cardBody {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.cardBody p {
+    margin: 0;
+    color: #333;
+}
+
+.cardBody strong {
+    color: #433D8B;
+}
+.moreBtn{
+    width: 100%;
+}
+.moreWrapper{
+    padding: 20px;
+}

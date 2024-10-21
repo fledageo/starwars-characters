@@ -1,0 +1,48 @@
+.cardHeader {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid rgba(92, 91, 91, 0.397);
+}
+
+.cardBody {
+    padding: 20px;
+    line-height: 1.6;
+    border-bottom: 1px solid rgba(92, 91, 91, 0.397);
+}
+
+.cardBody p {
+    margin: 0;
+    color: #333;
+}
+
+.cardBody strong {
+    color: #433D8B;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+}
+
+.moreBtn {
+    margin-top: 5px;
+    width: 40%;
+}
+
+
+.character-details {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.section {
+    margin-bottom: 20px;
+}
+
+
+.complexInfo{
+    margin-top: 20px;
+}

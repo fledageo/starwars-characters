@@ -1,0 +1,16 @@
+.pagination{
+    display: flex;
+    align-items: center;
+}
+.pageBtn{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 2px 5px;
+}
+.pageBtn:not(.active):hover{
+    background-color: rgb(190, 190, 190);
+}
+.active{
+    background-color: #443d8b71;
+}
