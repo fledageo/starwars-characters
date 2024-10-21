@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+# Star Wars Character Information App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application allows users to fetch and explore character data from the [Star Wars API (swapi.dev)](https://swapi.dev). Users can view character names, detailed information, and perform searches through a paginated list.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches characters from the Star Wars API.
+- Displays a list of character names.
+- Clickable names that open a modal with detailed information about the character.
+- "More Details" button to fetch and display complex details (e.g., starships, homeworld, vehicles, films).
+- Ability to click on complex details to get further information.
+- Search functionality to filter characters by name.
+- Pagination to navigate through the list of characters.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This app is created using:
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A superset of JavaScript that adds static typing.
+- **Redux Toolkit**: A set of tools and best practices for efficient Redux development.
+- **swapi.dev**: An API for fetching Star Wars data.
 
-- Configure the top-level `parserOptions` property like this:
+# Getting Started
+To get started with this app, follow the steps below:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Prerequisites
+Make sure you have Node.js and npm installed on your machine.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Installation
+- git clone "repository-url"
+- cd "project-directory"
+- npm install
+- npm run dev
+- Open your browser and navigate to http://localhost:3000 (or the port specified in the terminal) to see the app in action.
